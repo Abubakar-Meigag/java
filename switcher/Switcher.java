@@ -4,7 +4,7 @@ public class Switcher {
 
       public static void main(String a[]){
 
-            int day = 15;
+            int day = 4;
 
             switch(day){
                   case 1:
@@ -30,6 +30,28 @@ public class Switcher {
                   default:
                         System.out.println("Invalid day");
             }
+
+
+            String workDays = "Sunday";
+
+            switch (workDays){
+                  case "Saturday", "Sunday" -> System.out.println("It's a weekend");
+                  case "Monday" -> System.out.println("Weak up at 8 AM");
+                  default -> System.out.println("Weak up at 7 AM");
+            }
+
+
+            String checkWorkDay = "Tuesday";
+            String result;
+
+            result = switch (checkWorkDay) {
+                  case "Saturday", "Sunday" -> "It's a weekend";
+                  case "Monday" -> "Weak up at 8 AM";
+                  default -> "Weak up at 7 AM";
+            };
+
+            System.out.println(result);
+
       }
       
 }
