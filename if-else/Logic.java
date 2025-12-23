@@ -20,10 +20,22 @@ public class Logic {
 
             if (num1 > num2 && num1 > num3)
                   System.out.println(num1 + " is the largest number");
-            else if (num2 > num1 && num2 > num3)
+            else if (num2 > num3)
                   System.out.println(num2 + " is the largest number");
             else
                   System.out.println(num3 + " is the largest number");
+
+
+            
+            int age = 15;
+            int age1 = 35;
+
+            String result = age >= 18 ? "You are an adult" : "You are a minor";
+            String result1 = age1 >= 18 ? "You are an adult" : "You are a minor";
+
+            System.out.println(result);
+            System.out.println(result1);
+
       }
 
 }
