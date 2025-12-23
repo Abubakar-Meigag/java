@@ -1,5 +1,5 @@
 package literals;
-class lit {
+public class Lit {
 
       public static void main(String a[]){
 
