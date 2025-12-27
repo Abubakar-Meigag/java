@@ -34,8 +34,8 @@ public class Constructor {
 
       public static void main(String a[]){
 
-            Human obj = new Human(); // here we create one object of Human class that mean the constructor is called once only
-            obj.setAge(30); // here we resign the age value in the object that defined in the class and constructor
+            Human obj = new Human();  // here we create one object of Human class that mean the constructor is called once only
+            obj.setAge(30);      // here we resign the age value in the object that defined in the class and constructor
             obj.setName("Bob"); // here we resign the name value in the object that defined in the class and constructor
 
             System.out.println("My name is: " + obj.getName() + " and I'm " + obj.getAge() + " years old");
