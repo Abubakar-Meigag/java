@@ -1,5 +1,15 @@
 package encapsulation;
 
+// Naming Convention in Java
+// Class names should start with Uppercase letters - Human, Encapsulation
+// Interface names should start with Uppercase letters - Calc, Runnable
+
+// Method names should start with Lowercase letters - getAge(), setName()
+// Variable names should start with Lowercase letters - age, name
+// Constants should be in Uppercase letters with words separated by underscores - PIE, BRAND_NAME
+
+// Package names should start with Lowercase letters - encapsulation, jagged
+
 class Human {
       private int age;
       private String name;
