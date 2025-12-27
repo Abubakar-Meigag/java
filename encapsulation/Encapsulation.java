@@ -1,4 +1,4 @@
-
+package encapsulation;
 
 class Human {
       private int age;
