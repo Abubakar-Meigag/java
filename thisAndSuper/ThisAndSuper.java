@@ -29,6 +29,7 @@ public class ThisAndSuper {
       public static void main(String a[]) {
 
             B obj = new B(7);
+            System.out.println(obj); // print memory location - not any value 
       }
 
 }
