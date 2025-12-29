@@ -1,6 +1,6 @@
 package conversion;
 
-public class con {
+public class Con {
       
       public static void main(String args[]){
 
