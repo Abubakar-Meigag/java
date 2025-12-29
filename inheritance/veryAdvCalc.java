@@ -1,6 +1,6 @@
 package inheritance;
 
-public class veryAdvCalc extends AdvCalc {
+public class VeryAdvCalc extends AdvCalc {
 
       public double powerOfNumber(int n1, int n2){
 

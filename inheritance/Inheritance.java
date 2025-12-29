@@ -4,7 +4,7 @@ public class Inheritance {
 
       public static void main(String a[]){
 
-            veryAdvCalc obj = new veryAdvCalc();
+            VeryAdvCalc obj = new VeryAdvCalc();
 
             int    r1 = obj.add(3, 2);
             int    r2 = obj.sub(6, 5);
