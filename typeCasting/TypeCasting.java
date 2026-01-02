@@ -19,33 +19,33 @@ package typeCasting;
 // - Allows access to subclass-specific methods
 // - Example: B obj1 = (B)obj; (A is downcast to B)
 
-class A{
-      public void show1(){
+class A {
+      public void show1() {
             System.out.println("show A");
       }
 }
 
-class B extends A{
-      public void show2(){
+class B extends A {
+      public void show2() {
             System.out.println("show B");
       }
 }
 
-
 public class TypeCasting {
 
-      public static void main(String a[]){
+      public static void main(String a[]) {
 
-            //  Upcasting
-            // here A is the reference type and B is the object type 
+            // Upcasting
+            // here A is the reference type and B is the object type
             A obj = new B();
             obj.show1();
 
             // Downcasting
-            // here B is the reference type and obj (originally type A) is explicitly cast to B 
-            B obj1 = (B)obj;
+            // here B is the reference type and obj (originally type A) is explicitly cast
+            // to B
+            B obj1 = (B) obj;
             obj1.show2();
-            
+
       }
-      
+
 }
