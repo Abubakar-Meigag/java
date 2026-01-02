@@ -17,7 +17,8 @@ abstract class Car {
 
 // Concrete class BMW extends the abstract Car class
 // BMW must implement all abstract methods from Car (in this case, Drive())
-class BMW extends Car {
+
+class BMW extends Car { // Concrete class
 
       // Required implementation of the abstract drive() method from Car
       // Each subclass can provide its own specific behavior
