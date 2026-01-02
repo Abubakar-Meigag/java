@@ -3,6 +3,7 @@ package abstractAndAnonymous;
 abstract class A {
 
       public abstract void show();
+      public abstract void config();
 
 }
 
@@ -15,9 +16,14 @@ public class AbstractAndAnonymous {
                   public void show() {
                         System.out.println("in Anonymous inner class");
                   }
+
+                  public void config(){
+                        System.out.println("in config");
+                  }
             };
 
             obj.show();
+            obj.config();
 
       }
 
