@@ -54,10 +54,6 @@ public class EnumTopic {
              * - ordinal(): Returns the position (index) of the constant
              * - name(): Returns the name of the constant as a string
              * - valueOf(String): Converts string to corresponding enum constant
-             *
-             * COMPILE AND RUN:
-             * ================
-             * javac enumTopic/EnumTopic.java && java enumTopic.EnumTopic
              */
       }
 
