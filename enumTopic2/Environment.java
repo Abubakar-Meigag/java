@@ -27,6 +27,7 @@ public class Environment {
 
             Env environment2 = Env.STAGING;
             System.out.println(environment2);
+            System.out.println(environment2.getUrl());
 
             // Direct access
             System.out.println("\nProduction URL: " + Env.PRODUCTION.getUrl());
