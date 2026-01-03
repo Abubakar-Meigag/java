@@ -15,7 +15,6 @@ package enumTopic;
  * - Maintainability: Changes are centralized in one place
  */
 
-
 enum Status {
       Failed, Running, Pending, Success;
 }
@@ -45,7 +44,7 @@ public class EnumTopic {
 
             // Iterating through all enum constants
             // ordinal() - Returns the position (0-based index) of the enum constant
-            for(Status e: ss){
+            for (Status e : ss) {
                   System.out.println(e + ": " + e.ordinal());
             }
 
