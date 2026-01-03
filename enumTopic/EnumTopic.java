@@ -14,6 +14,8 @@ package enumTopic;
  * - Readability: Named constants are more meaningful than magic numbers
  * - Maintainability: Changes are centralized in one place
  */
+
+
 enum Status {
       Failed, Running, Pending, Success;
 }
