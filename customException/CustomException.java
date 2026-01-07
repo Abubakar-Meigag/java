@@ -2,7 +2,7 @@ package customException;
 
 class MyException extends RuntimeException {
 
-      // this class must extend either Exception or RunTimeException to work and add super to call your string as pram 
+      // this class must extend either from Exception or RunTimeException class to work, and add super to call your string as pram 
       public MyException(String str) {
             super(str);
       }
