@@ -28,19 +28,18 @@ public class UserInput {
             // System.out.println(e);
             // }
 
-
-            // modern way with Scanner for user input 
+            // modern way with Scanner for user input
             Scanner sc = new Scanner(System.in);
 
             int num2;
             try {
                   num2 = sc.nextInt();
                   System.out.println(num2);
-                  sc.close();
             } catch (Exception e) {
                   e.printStackTrace();
                   System.out.println(e);
+            } finally {
+                  sc.close();
             }
-
       }
 }
