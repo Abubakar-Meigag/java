@@ -28,8 +28,8 @@ public class UserInput {
             // System.out.println(e);
             // }
 
-            
-            // modern way with Scanner
+
+            // modern way with Scanner for user input 
             Scanner sc = new Scanner(System.in);
 
             int num2;
