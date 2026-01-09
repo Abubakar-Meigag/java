@@ -7,6 +7,11 @@ class A extends Thread {
             int i = 0;
             while (i < 100) {
                   System.out.println("hi");
+                  try {
+                        Thread.sleep(10);
+                  } catch (InterruptedException e) {
+                        e.printStackTrace();
+                  }
                   i++;
             }
       }
@@ -18,6 +23,11 @@ class B extends Thread {
             int i = 0;
             while (i < 100) {
                   System.out.println("hello");
+                  try {
+                        Thread.sleep(10);
+                  } catch (InterruptedException e) {
+                        e.printStackTrace();
+                  }
                   i++;
             }
       }
